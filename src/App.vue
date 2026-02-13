@@ -240,7 +240,7 @@
     </transition>
     <br />
     <p class="text-sm text-gray-600">
-      &copy; <span class="font-semibold text-gray-800">Kimchheng Ung aka</span>.
+      &copy; <span class="font-semibold text-gray-800">Kimchheng Ung</span>.
     </p>
   </div>
 </template>
