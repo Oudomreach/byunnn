@@ -38,8 +38,9 @@
       class="bg-white/90 backdrop-blur-sm rounded-[3rem] shadow-2xl w-full max-w-sm flex flex-col items-center p-8 relative border-4 border-white z-10"
     >
       <span
-        class="text-[10px] tracking-[0.4em] uppercase font-bold text-pink-400 mb-2"
-        >AI GENERATED THIS FOR YOU :'P
+        class="text-[10px] text-center tracking-[0.2em] uppercase font-bold text-pink-400 mb-2"
+      >
+        My appreciation for you <span>:'P</span>
       </span>
       <h1
         class="text-3xl font-black text-gray-800 mb-6 text-center leading-tight"
