@@ -206,9 +206,9 @@
 
               <button
                 @click="showAnotherCard = true"
-                class="w-full bg-yellow-100 hover:bg-yellow-200 text-yellow-700 py-3 rounded-2xl text-sm font-bold transition-all active:scale-95"
+                class="w-full uppercase bg-yellow-100 hover:bg-yellow-200 text-yellow-700 py-3 rounded-2xl text-sm font-bold transition-all active:scale-95"
               >
-                Click here for more!
+                Click here for more! 😈
               </button>
             </div>
 
