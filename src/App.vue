@@ -44,7 +44,7 @@
       <h1
         class="text-3xl font-black text-gray-800 mb-6 text-center leading-tight"
       >
-        Horrible Person
+        Horrible Person 👀
       </h1>
 
       <div
@@ -53,9 +53,9 @@
         <transition name="fade" mode="out-in">
           <img
             v-if="!loadingMessage"
-            :src="flower"
+            :src="tulip"
             alt="Valentine Bouquet"
-            class="w-full h-full object-cover z-10 scale-140"
+            class="w-full h-full object-cover z-10 scale-120"
           />
           <div
             v-else
@@ -113,9 +113,9 @@
         class="fixed inset-0 z-50 flex items-center justify-center p-6 bg-pink-200/40 backdrop-blur-xl"
       >
         <div
-          class="bg-white w-full max-w-xs p-8 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.15)] border-t-8 border-pink-400 relative text-center"
+          class="bg-white w-full max-w-xs p-4 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.15)] border-t-8 border-pink-400 relative text-center"
         >
-          <div class="w-full h-64 mb-4">
+          <div class="w-full h-42 mb-4">
             <svg viewBox="0 0 200 160" class="w-full h-full drop-shadow-lg">
               <defs>
                 <linearGradient
@@ -230,6 +230,17 @@
                     >
                       ✕
                     </button>
+                    <div
+                      class="text-white leading-relaxed italic text-base mb-8 p-2"
+                    >
+                      <span>
+                        <p>
+                          THANKS YOU FOR TALKING TO THIS GUY!
+                          <br />
+                          LOVE YOU...
+                        </p>
+                      </span>
+                    </div>
                   </div>
                 </transition>
               </div>
@@ -249,6 +260,9 @@
 import { ref } from "vue";
 import flower from "/src/assets/tulip.png";
 import monkey from "/src/assets/monkey.jpg";
+import pig from "/src/assets/pig.png";
+import daisy from "/src/assets/flower.jpg";
+import tulip from "/src/assets/flower1.jpg";
 
 const showNote = ref(false);
 const loadingMessage = ref(false);
