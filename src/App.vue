@@ -176,10 +176,10 @@
 
           <div x-data="{ showCard: false }">
             <p class="text-gray-700 leading-relaxed italic text-base mb-8">
-              Bright and Cheerful like a
+              Bright and Cheerful like
               <span class="text-yellow-500 font-bold">Daisy</span>
               <br />
-              Tender and Hopeful like a
+              Tender and Hopeful like
               <span class="text-rose-500 font-bold">Tulip</span>
               <br />
               <span>------</span>
@@ -235,7 +235,11 @@
                     >
                       <span>
                         <p>
-                          THANKS YOU FOR TALKING TO THIS GUY!
+                          THANKS YOU FOR
+                          <span class="text-pink-600 font-bold">TALKING, </span>
+                          <span class="text-pink-600 font-bold">TEXTING, </span>
+                          <span class="text-pink-600 font-bold">GAMING </span>
+                          WITH THIS BORING GUY!
                           <br />
                           LOVE YOU...
                         </p>
