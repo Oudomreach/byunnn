@@ -185,7 +185,8 @@
               <span>------</span>
               <br />
               Thank you for being here for me, <br />
-              You push me this far, Urs support mean everythings to me,
+              You change me and push me this far, Urs support mean everythings
+              to me,
               <br />
               You made my everydays more softer and calmer!
               <br />
